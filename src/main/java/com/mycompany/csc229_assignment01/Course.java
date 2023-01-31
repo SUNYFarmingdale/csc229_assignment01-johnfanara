@@ -33,5 +33,22 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
-
+    int ID;
+    String name;
+    String code;
+    
+    //default constructor
+    public Course(){
+        ID = 0;
+        name = " ";
+        code = " ";
+    }
+    
+    //overloaded constructor
+    public Course(int ID, String name, String code){
+        this.ID = ID;
+        this.name = name;
+        this.code = code;    
+    }
+    
 }

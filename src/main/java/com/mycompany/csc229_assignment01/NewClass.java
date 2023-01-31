@@ -8,7 +8,14 @@ package com.mycompany.csc229_assignment01;
 public class NewClass {
     
      public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //creates new instance of course
+        Course course1 = new Course(1, "Data Structures & Algorithms", "CSC229");
+        
+        //prints course object
+        System.out.println("Course ID: " + course1.ID);
+        System.out.println("Course Name: " + course1.name);
+        System.out.println("Course Code: " + course1.code);
+        
     }
     
 }
