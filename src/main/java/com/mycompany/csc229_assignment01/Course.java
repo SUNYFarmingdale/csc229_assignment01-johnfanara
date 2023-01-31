@@ -43,7 +43,7 @@ public class Course {
         this.name = "";
         this.code = "";
     }
-//get ant set methods    
+//get and set methods    
     public int getID(){
         return ID;
     }
