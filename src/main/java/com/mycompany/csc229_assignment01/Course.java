@@ -36,15 +36,36 @@ public class Course {
     int ID;
     String name;
     String code;
-    
-    //default constructor
+
+//default constructor
     public Course(){
-        ID = 0;
-        name = " ";
-        code = " ";
+        this.ID = 0;
+        this.name = "";
+        this.code = "";
+    }
+//get ant set methods    
+    public int getID(){
+        return ID;
+    }
+    public void setID(int newID){
+        this.ID = newID;
     }
     
-    //overloaded constructor
+    public String getName(){
+        return name;
+    }
+    public void setName(String newName){
+        this.name = newName;
+    }
+    
+    public String getCode(){
+        return code;
+    }
+    public void setCode(String newCode){
+        this.code = newCode;
+    }
+    
+ //overloaded constructor
     public Course(int ID, String name, String code){
         this.ID = ID;
         this.name = name;

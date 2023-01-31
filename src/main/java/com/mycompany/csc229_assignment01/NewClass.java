@@ -9,7 +9,7 @@ public class NewClass {
     
      public static void main(String[] args) {
         //creates new instance of course
-        Course course1 = new Course(1, "Data Structures & Algorithms", "CSC229");
+        Course course1 = new Course(1, "John", "CSC229");
         
         //prints course object
         System.out.println("Course ID: " + course1.ID);
